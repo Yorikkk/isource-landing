@@ -267,13 +267,14 @@ body.modal-show .modal {
   padding-top: 8.9rem;
   padding-bottom: 8.9rem;
   color: #fff;
-  background: center/cover no-repeat url("images/WelcomePage/restangle-opacity.png"), center/cover no-repeat url("images/WelcomePage/two-mans.png");
+  background: center/cover no-repeat url("images/WelcomePage/restangle-opacity.png"), linear-gradient(to left, #1a1b26 15%, rgba(26, 27, 38, 0) 100%), left/100% no-repeat url("images/WelcomePage/man-with-helm.png"), #1a1b26;
 }
 .indicators__title {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 4rem;
+  gap: 7rem;
+  margin-top: 6rem;
 }
 .indicators__title--button {
   display: flex;

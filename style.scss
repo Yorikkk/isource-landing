@@ -385,13 +385,17 @@ body {
 	color: $color-white;
 	background: center / cover no-repeat
 			url('images/WelcomePage/restangle-opacity.png'),
-		center / cover no-repeat url('images/WelcomePage/two-mans.png');
+		linear-gradient(to left, $color-black 15%, rgba(26, 27, 38, 0) 100%),
+		left / 100% no-repeat url('images/WelcomePage/man-with-helm.png'),
+		$color-black;
 
 	&__title {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		gap: 4rem;
+		gap: 7rem;
+
+		margin-top: 6rem;
 
 		&--button {
 			display: flex;
