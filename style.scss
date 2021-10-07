@@ -272,6 +272,7 @@ body {
 
 			font-size: 1.8rem;
 			font-weight: 700;
+			text-decoration: none;
 		}
 	}
 }
@@ -525,6 +526,8 @@ body {
 
 	&__title {
 		margin-bottom: 4rem;
+
+		font-size: 3.2rem;
 	}
 
 	&__slider {
@@ -629,7 +632,7 @@ body {
 
 .examples {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 4fr 3fr;
 
 	@extend %global-padding-x;
 	@extend %global-padding-y;
@@ -641,6 +644,8 @@ body {
 	&__search {
 		&--title {
 			margin-bottom: 4.7rem;
+
+			font-size: 3.5rem;
 		}
 
 		&--form {

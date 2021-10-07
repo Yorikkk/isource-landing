@@ -194,6 +194,7 @@ body.modal-show .modal {
   border-radius: 5px;
   font-size: 1.8rem;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .about {
@@ -384,6 +385,7 @@ body.modal-show .modal {
 
 .effects__title {
   margin-bottom: 4rem;
+  font-size: 3.2rem;
 }
 .effects__slider {
   display: flex;
@@ -460,7 +462,7 @@ body.modal-show .modal {
 
 .examples {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 4fr 3fr;
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0), 90%, rgba(0, 0, 0, 0.05)), left/75% no-repeat url("images/WelcomePage/examples-left-background.png"), #fff;
 }
 .examples__search {
@@ -468,6 +470,7 @@ body.modal-show .modal {
 }
 .examples__search--title {
   margin-bottom: 4.7rem;
+  font-size: 3.5rem;
 }
 .examples__search--form {
   display: flex;
